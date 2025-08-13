@@ -1,11 +1,59 @@
+import java.util.Scanner;
+
 public class L1 {
-    public static void main()
+    static int a=9;  //static variable
+    public static void main(String[] args)
     {
-        System.out.println("Vaibhav Singh");
-        System.out.println("Class 1");
-        int a=5;
-        int b=9;
-        int c=a+b;
-        System.out.println(c);
+        System.out.println("Name-> Vaibhav Singh");
+        System.out.println("Course-> B.Tech");
+        System.out.println("Roll no.-> 69");
+
+        
+        int b=4;  //Local variable 
+        System.out.println(b);
+        System.out.println(a);
+
+
+        //Range of Data types
+        System.out.println(Byte.MIN_VALUE+ " to " +Byte.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE+" to "+Integer.MAX_VALUE);
+        System.out.println(Character.MIN_VALUE+"to "+Character.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE+" to "+Float.MAX_VALUE);
+        System.out.println(Double.MIN_VALUE+" to "+Double.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE+" to "+Short.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE+" to "+Long.MAX_VALUE);
+
+
+        int n=5,m=0;
+        System.out.println(m+n);
+
+
+        //INPUT
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value of integer");
+        int A=sc.nextInt();
+        System.out.println("Enter the value of integer");
+        int B=sc.nextInt();
+        System.out.println("Sum= "+(A+B));
+        System.out.println("sub= "+(A-B));
+        System.out.println("Mul= "+(A*B));
+        System.out.println("Div= "+(A/B));
+        System.out.println("Mod= "+(A%B));
+        sc.close();
+
+        //Array
+        int []arr={1,2,3,4,5,6,7};
+        System.out.println("Element= "+arr[1]);
+
+        //assign operator
+        A+=B;
+         System.out.println("assign sum= "+(A));
+        A-=B;
+        System.out.println("assign sub= "+(A));
+        A*=B;
+         System.out.println("assign mul= "+(A));
+         A/=B;
+          System.out.println("assign div= "+(A));
+          
     }
 }
