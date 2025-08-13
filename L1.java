@@ -1,4 +1,4 @@
-public class w {
+public class L1 {
     public static void main()
     {
         System.out.println("Vaibhav Singh");
