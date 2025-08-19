@@ -1,10 +1,10 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class L1 {
     static int a=9;  //static variable
     public static void main(String[] args)
     {
-        System.out.println("Name-> Vaibhav Singh");
+       /*  System.out.println("Name-> Vaibhav Singh");
         System.out.println("Course-> B.Tech");
         System.out.println("Roll no.-> 69");
 
@@ -39,7 +39,7 @@ public class L1 {
         System.out.println("Mul= "+(A*B));
         System.out.println("Div= "+(A/B));
         System.out.println("Mod= "+(A%B));
-        sc.close();
+        
 
         //Array
         int []arr={1,2,3,4,5,6,7};
@@ -51,9 +51,55 @@ public class L1 {
         A-=B;
         System.out.println("assign sub= "+(A));
         A*=B;
-         System.out.println("assign mul= "+(A));
-         A/=B;
-          System.out.println("assign div= "+(A));
+        System.out.println("assign mul= "+(A));
+        A/=B;
+        System.out.println("assign div= "+(A));
           
+
+        //Relational Operator
+        int C=sc.nextInt();*/
+
+
+
+        //Logical Operator (&&, ||, !)
+
+
+
+       
+       /*  if(-251)
+        {
+            System.out.println("printed");
+        }
+        else
+        {
+            System.out.println("not print");
+        }*/
+
+
+       /* int z=67;
+        int x=46;
+        x=z+x;
+        z=x-z;
+        x=x-z;
+
+        System.out.println("X="+x);
+        System.out.println("Z="+z);*/
+
+        /*int  V=9,U=7;
+        System.out.println(V+" , "+U);*/
+
+        //Bitwise Operator(>>, <<, &, |, ^, ~ )
+
+        // int Y=2,W=3;
+        // System.out.println(Y&W);
+        // System.out.println(Y|W);
+        // System.out.println(Y^W);
+        // System.out.println(~W);
+        // System.out.println(~Y);
+        System.out.println("Hello World!");
+
+        
+
+       // sc.close();
     }
 }
